@@ -2,7 +2,9 @@ def lab2Question1(word):
     # Note - you'll need to change the signature (above) to match the arguments for this lab...
     # Create a function that takes in a string 
     # Return True if that string is a palindrome, False otherwise
+    #comment
     pass
+
 
 def lab2Question2(number_val):
     # Create a function that takes in a number
