@@ -2,7 +2,6 @@ def lab2Question1(word):
     # Note - you'll need to change the signature (above) to match the arguments for this lab...
     # Create a function that takes in a string 
     # Return True if that string is a palindrome, False otherwise
-    #comment comment 
     pass
 
 
@@ -15,15 +14,20 @@ def lab2Question3(str1, str2):
     # Create a function that takes in two strings - str1 and str2
     # Return the number of times str2 appears in str1
     # For example if str1 = "coding is cool" and str2 = "co" then output should be 2.
-    pass
+    return str1.count(str2)
 
 def lab2Question4(list1, list2):
     # Create a function that takes in two equal length list of numbers. 
     # Return a list of the element-wise sum of the two lists - i.e. the first element of the output list is the sum of the first elements of the input lists
     # If the condition of the function is not satisfied, return a blank list
-    pass
+    if len(list1) != len(list2):
+        return []
+    sum_list = []
+    for i in range(len(list1)):
+        sum_list.append(list1[i] + list2[i])
+        return sum_list
 
-    return sum_list
+    
 
 def lab2Question5():
     # Create a function* that asks a user to enter a password that meets the following criteria:
