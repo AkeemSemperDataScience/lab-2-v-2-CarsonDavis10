@@ -25,7 +25,8 @@ def lab2Question4(list1, list2):
     sum_list = []
     for i in range(len(list1)):
         sum_list.append(list1[i] + list2[i])
-        return sum_list
+        
+    return sum_list
 
     
 
