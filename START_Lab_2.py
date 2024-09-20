@@ -8,8 +8,15 @@ def lab2Question1(word):
 def lab2Question2(number_val):
     # Create a function that takes in a number
     # Return a list of the fibonacci sequence up to that number
-    pass
-
+    fibonacci_sequence = []
+    a, b = 0, 1
+    
+    while a <= number_val:
+        fibonacci_sequence.append(a)
+        a, b = b, a + b
+    
+    return fibonacci_sequence
+ 
 def lab2Question3(str1, str2):
     # Create a function that takes in two strings - str1 and str2
     # Return the number of times str2 appears in str1
