@@ -57,9 +57,7 @@ def lab2Question5():
         if isValidPassword(password):
             return password
         else:
-            print("not valid")        
-    
-    return password
+            print("not valid") 
 
 def isValidPassword(password):
     # Create a function that takes in a password and returns True if the password is valid, False otherwise
